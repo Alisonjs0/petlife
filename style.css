@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #263138;
+  overflow-x: hidden;
+}
+
+header {
+  background: hsla(19, 100%, 71%, 1);
+  display: flex;
+  width: 100vw;
+  padding: 24px 80px 24px 80px;
+  justify-content: space-between;
+}
+
+header nav a {
+  color: #fff;
+  font-weight: 600;
+  padding: 32px;
+}
+
+main #inicio {
+  display: flex;
+  padding: 24px 80px 120px 80px;
+  position: relative;
+  gap: 32px;
+  align-items: center;
+}
+
+h2, 
+h3 {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+p {
+  line-height: 150%;
+  margin-bottom: 32px;
+  font-size: 16px;
+}
+
+.bottom {
+  background: #ff725e;
+  padding: 16px 32px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.bottom-trans {
+  background: transparent;
+  color: #ff725e;
+  padding: 16px 32px;
+  text-underline-offset: 4px;
+  text-decoration: underline;
+}
+
+.image-decoration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -10;
+}
+
+#clinica {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 80px;
+}
+
+#clinica li {
+  margin-bottom: 16px;
+  margin-left: 32px;
+  font-size: 18px;
+}
+
+#farmacia {
+  padding: 64px 80px;
+  text-align: center;
+}
+
+#farmacia img {
+  margin: 64px auto;
+}
+
+#farmacia p {
+  max-width: 950px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+#duvidas {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 80px;
+}
+
+.duvida {
+  position: relative;
+}
+
+.duvida h3{
+  border: 2px solid #ff725e;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 24px;
+}
+
+.duvida img {
+  position: absolute;
+  top: 32px;
+  right: 24px;
+}
+
+.duvida p {
+  border-right: 1px solid #ff725e;
+  border-bottom: 1px solid #ff725e;
+  border-left: 1px solid #ff725e;
+  border-radius: 0 0 8px 8px;
+  margin-top: -42px;
+  padding: 24px;
+  font-size: 16px;
+  }
+
+  footer {
+    background: hsla(19, 100%, 71%, 0.25);
+    display: flex;
+    gap: 80px;
+    padding: 64px 80px;
+    font-size: 16px;
+    justify-content: space-between;
+
+  }
+
+  footer .links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  footer .locate {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  footer a {
+    color: #263138;
+  }
+
+  footer div strong {
+    margin-bottom: 32px;
+  }
+
+  .copy {
+    background:hsla(200, 19%, 18%, 1);
+    padding: 32px;
+    color: white;
+    margin: auto;
+    text-align: center;
+  }
+
+  .copy a {
+    color: #ff725e;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
