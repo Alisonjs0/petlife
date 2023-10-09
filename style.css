@@ -130,8 +130,18 @@ p {
   border-left: 1px solid #ff725e;
   border-radius: 0 0 8px 8px;
   margin-top: -42px;
-  padding: 24px;
+  padding: 0 24px;
   font-size: 16px;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: .5s;
+  }
+
+  .duvida.ativa p {
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
   }
 
   footer {
